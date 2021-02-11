@@ -139,11 +139,12 @@ body {
     border-radius: 4px;
     outline: none;
     border: none;
-
+    cursor: pointer;
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
   }
   .features-title {
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -182,7 +183,7 @@ body {
     background-color: #fff;
   }
   .we-do-sec {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
   }
   .we-do-list {
     display: flex;
@@ -231,6 +232,8 @@ body {
   .team-card {
     padding-top: 30px;
     padding-bottom: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
   }
   /*Footer*/
   footer {
@@ -239,7 +242,7 @@ body {
     background-color: #2F303A;
   }
   .logo.footer {
-    display: block;
+    display: inline-block;
     margin-bottom: 20px;
     color: var(--primary-bg-color)
   }
@@ -268,6 +271,7 @@ body {
     line-height: 1.62;
     text-align: center;
     border: none;
+    cursor: pointer;
   }
   .pfl-list li:not(:last-child) {
     margin-right: 8px;
@@ -296,33 +300,50 @@ body {
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
   }
+  .description-box {
+    padding: 20px 24px 20px 24px;
+  }
   .gallery-list {
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: space-between; */
     margin-left: -30px;
     margin-top: -30px;
     margin-bottom: 94px;
+    box-sizing: border-box;
   }
   .gallery-item {
     width: 370px;
     border: 1px solid #EEEEEE;
+    border-top: none;
     margin-left: 30px;
     margin-top: 30px;
   }
+  .pfl-link {
+    display: inline-block;
+    text-decoration: none;
+  }
   .portf-title {
+    /* margin-top: 20px;
+    margin-left: 24px;
+    margin-bottom: 4px; */
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    text-align: center;
-
     color: var(--title-text-color)
   }
+  a {
+  
+  }
   .portf-text {
+    /* margin-top: 4px;
+    margin-left: 24px;
+    margin-bottom: 20px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
-    text-align: center;
     color: var(--primary-text-color)
   }
  
